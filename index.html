@@ -353,16 +353,7 @@
         // Initialize GSAP
         gsap.registerPlugin(ScrollTrigger);
         
-        // Animate progress bars
-        gsap.to('.progress-bar', {
-            width: "100%",
-            duration: 2,
-            scrollTrigger: {
-                trigger: '#skills',
-                start: 'top center',
-                toggleActions: 'play none none none'
-            }
-        });
+    
         
         // Handle section animations
         const sections = document.querySelectorAll('.section-hidden');
