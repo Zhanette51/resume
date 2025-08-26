@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-def generate_resume():
-    html_content = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -78,7 +74,7 @@ def generate_resume():
         <div class="relative z-10 text-center px-4">
             <div class="floating mb-8">
                 <div class="w-32 h-32 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full mx-auto shadow-2xl flex items-center justify-center">
-                    <span class="text-white text-4xl font-bold">JK</span>
+                    <span class="text-white text-4xl font-bold">ZK</span>
                 </div>
             </div>
             <h1 class="text-5xl md:text-6xl font-bold text-gray-800 mb-4 typewriter">Жанна Катрич</h1>
@@ -103,7 +99,7 @@ def generate_resume():
     <section id="contact" class="py-20 bg-white">
         <div class="container mx-auto px-4 max-w-4xl">
             <div class="section-hidden bg-gradient-to-r from-blue-600 to-indigo-700 rounded-3xl p-8 text-white shadow-2xl">
-                <h2 class="text-3xl font-bold mb-6 text-center">Жанна Катрич Владимировна</h2>
+                <h2 class="text-3xl font-bold mb-6 text-center">Жанна Катрич Владиславовна</h2>
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="flex items-center">
                         <i class="fas fa-birthday-cake text-2xl mr-4"></i>
@@ -111,19 +107,19 @@ def generate_resume():
                     </div>
                     <div class="flex items-center">
                         <i class="fas fa-map-marker-alt text-2xl mr-4"></i>
-                        <span>Москва</span>
+                        <span>Самара</span>
                     </div>
                     <div class="flex items-center">
                         <i class="fas fa-phone text-2xl mr-4"></i>
-                        <span>[Ваш телефон]</span>
+                        <span>89170328953</span>
                     </div>
                     <div class="flex items-center">
                         <i class="fas fa-envelope text-2xl mr-4"></i>
-                        <span>[Ваш email]</span>
+                        <span>zhakat51@gmail.com</span>
                     </div>
                     <div class="flex items-center">
                         <i class="fab fa-telegram text-2xl mr-4"></i>
-                        <span>[Ваш Telegram]</span>
+                        <span>@babyzhanette</span>
                     </div>
                 </div>
             </div>
@@ -183,7 +179,7 @@ def generate_resume():
                             <div>
                                 <div class="flex justify-between mb-2">
                                     <span>Китайский</span>
-                                    <span class="text-blue-600">C1</span>
+                                    <span class="text-blue-600">HSK3</span>
                                 </div>
                                 <div class="w-full bg-gray-200 rounded-full h-2">
                                     <div class="bg-blue-600 h-2 rounded-full progress-bar" style="width: 90%"></div>
@@ -205,7 +201,7 @@ def generate_resume():
                 <div class="bg-white rounded-3xl p-8 shadow-xl mb-8">
                     <div class="flex items-center justify-between mb-4">
                         <h3 class="text-2xl font-bold text-blue-600">Альфа-Банк</h3>
-                        <span class="bg-blue-100 text-blue-600 px-4 py-1 rounded-full">Май 2025 — н.в.</span>
+                        <span class="bg-blue-100 text-blue-600 px-4 py-1 rounded-full">Апрель 2025 — н.в.</span>
                     </div>
                     <p class="text-lg font-semibold text-gray-700 mb-4">Руководитель направления дистанционной поддержки юр. лиц</p>
                     <ul class="space-y-2 text-gray-600">
@@ -227,7 +223,7 @@ def generate_resume():
                 <div class="bg-white rounded-3xl p-8 shadow-xl">
                     <div class="flex items-center justify-between mb-4">
                         <h3 class="text-2xl font-bold text-blue-600">Альфа-Банк</h3>
-                        <span class="bg-blue-100 text-blue-600 px-4 py-1 rounded-full">Январь 2024 — Май 2025</span>
+                        <span class="bg-blue-100 text-blue-600 px-4 py-1 rounded-full">Январь 2024 — Апрель 2025</span>
                     </div>
                     <p class="text-lg font-semibold text-gray-700 mb-4">Специалист дистанционной поддержки юр. лиц</p>
                     <ul class="space-y-2 text-gray-600">
@@ -237,14 +233,8 @@ def generate_resume():
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-arrow-right text-blue-500 mt-1 mr-3"></i>
-                            <span>Диагностика и документирование инцидентов IT-систем</span>
+                            <span>Помощь в адаптации новым сотрудникам</span>
                         </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-arrow-right text-blue-500 mt-1 mr-3"></i>
-                            <span>Выявление проблем в пользовательском интерфейсе</span>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
     </section>
@@ -259,7 +249,7 @@ def generate_resume():
                     <div class="flex justify-between items-start mb-4">
                         <div>
                             <h3 class="text-2xl font-bold text-blue-600">Институт международных экономических связей (ИМЭС)</h3>
-                            <p class="text-gray-600">2022 — 2026 (ожидаемая дата выпуска)</p>
+                            <p class="text-gray-600">2024 — 2027 (ожидаемая дата выпуска)</p>
                         </div>
                         <span class="bg-blue-600 text-white px-4 py-1 rounded-full">Бакалавриат</span>
                     </div>
@@ -317,7 +307,7 @@ def generate_resume():
                     <p class="leading-relaxed">
                         Высокая обучаемость, ответственность и нацеленность на результат. Понимание бизнес-логики 
                         и внутренних процессов Альфа-Банка изнутри. Готова применять имеющиеся знания и быстро 
-                        осваивать новые технологии для contribution в команду.
+                        осваивать новые технологии для погружения в команду.
                     </p>
                 </div>
             </div>
@@ -335,7 +325,7 @@ def generate_resume():
                 <a href="#" class="hover:text-blue-400 transition-colors">
                     <i class="fab fa-github text-2xl"></i>
                 </a>
-                <a href="#" class="hover:text-blue-400 transition-colors">
+                <a href="https://t.me/babyzhanette" class="hover:text-blue-400 transition-colors">
                     <i class="fab fa-telegram-plane text-2xl"></i>
                 </a>
             </div>
@@ -386,14 +376,4 @@ def generate_resume():
         });
     </script>
 </body>
-</html>"""
-
-    # Сохраняем в файл
-    with open('index.html', 'w', encoding='utf-8') as f:
-        f.write(html_content)
-    
-    print("HTML-резюме успешно создано в файле 'index.html'")
-
-if __name__ == "__main__":
-    generate_resume()
-
+</html>
