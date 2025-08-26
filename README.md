@@ -7,4 +7,4 @@
 1. Установите Python (если не установлен)
 2. Запустите скрипт:
 ```bash
-python generate_resume.py
+python index.html
