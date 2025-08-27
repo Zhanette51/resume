@@ -9,4 +9,4 @@
 1. Установите Python (если не установлен)
 2. Запустите скрипт:
 ```bash
-python index.html
+ index.html
